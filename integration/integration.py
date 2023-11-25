@@ -19,7 +19,7 @@ def highpass_filter(data, cutoff, fs, order=5):
 
 
 
-class AccIntergration:
+class AccIntegration:
     def __init__(self, 
                  time_limit: int = 100,
                  sampling_freq: int = 100, 
